@@ -3,6 +3,7 @@
 ## Live preview
 
 You can checkout preview on https://vini.center
+Preview repository is on https://github.com/vinicenter/vinicenter.github.io
 
 ## Run by-yourself
 
