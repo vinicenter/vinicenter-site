@@ -39,5 +39,6 @@ npm run gh-pages-spa-fix
 ```
 
 Run this script before you deploy the production build to Github Pages.
+
 This script was created to resolve a SPA problem with refresh page on Github Pages.
 You can find out more about this SPA page problem on https://stackoverflow.com/questions/63462828/404-error-on-refresh-with-spa-react-router-app-in-github-pages.
