@@ -1,10 +1,6 @@
 {
 	"api": {
-<<<<<<< HEAD
 		"apiUrl": "https://vini.center/vinicenter/public-profile",
-=======
-		"apiUrl": "http://localhost:3000/public-profile",
->>>>>>> b8401f9 (adding phosphor and removing fontawesome)
 		"apiBlog": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fvinicenter.medium.com%2Ffeed",
 		"database": {
 			"contact": "/info/contact.json",
