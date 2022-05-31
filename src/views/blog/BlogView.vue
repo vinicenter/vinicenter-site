@@ -84,9 +84,9 @@ export default {
     >
       {{ content.post.viewAllPostsOnMedium }}
       <IconComponent
-        :size="12"
+        :size="16"
         :isHover="false"
-        :icon="'fa-solid fa-up-right-from-square'"
+        :icon="'ph-link-bold'"
       />
     </ButtonComponent>
     <div class="row" v-if="!(loadingBlogHasError)">

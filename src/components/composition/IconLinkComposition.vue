@@ -19,7 +19,7 @@ export default {
   <ul class="link">
     <li v-for="network in networks" :key="network">
       <LinkComponent :href="network.url" :title="network.name" target="_blank">
-        <IconComponent :icon="network.fontAwesomeIcon" :isHover="false" />
+        <IconComponent :icon="network.phosphorIcon" :isHover="false" />
         <p>{{network.name}}</p>
       </LinkComponent>
     </li>

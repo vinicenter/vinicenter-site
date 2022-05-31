@@ -1,7 +1,8 @@
 <script setup>
 import content from '@/config/content.json';
 import ButtonComponent from '@/components/core/ButtonComponent.vue';
-import TextComponent from '../core/TextComponent.vue';
+import TextComponent from '@/components/core/TextComponent.vue';
+import IconComponent from '@/components/core/IconComponent.vue';
 </script>
 
 <script>
@@ -35,6 +36,11 @@ export default {
       class="buttons"
     >
       {{button[1]}}
+      <IconComponent
+        :size="16"
+        :isHover="false"
+        :icon="'ph-link-bold'"
+      />
     </ButtonComponent>
   </div>
 </template>
